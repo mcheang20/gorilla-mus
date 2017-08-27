@@ -8,6 +8,6 @@
       }
 
      angular
-         .module('gorillaMusic')
+         .module('gorillaMus')
          .controller('AlbumCtrl', ['Fixtures','SongPlayer', 'Metric', '$rootScope', AlbumCtrl]);
  })();

@@ -12,12 +12,23 @@
     <link rel="stylesheet" type="text/css" href="styles/collection.css">
     <link rel="stylesheet" type="text/css" href="styles/album.css">
     <link rel="stylesheet" type="text/css" href="styles/player_bar.css">
-    <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.2/nv.d3.min.css"/>
+     <!-- Latest compiled and minified CSS -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
+  <nav class="nav-top">
+   <a ui-sref="landing" class="logo">
+     <img style="height:9rem;" src="assets/images/logo_1.jpg" alt="bloc jams logo">
+   </a>
+   <div class="links-container">
+       <a ui-sref="collection" class="nav-top-link">collection</a>
+       <a ui-sref="metric" class="nav-top-link" ng-show="currentUser">metrics</a>
+  </nav>
 
     <ui-view></ui-view>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.1.10/buzz.min.js"></script>
@@ -30,13 +41,10 @@
     <script src="/scripts/services/Fixtures.js"></script>
     <script src="/scripts/services/SongPlayer.js"></script>
     <script src="/scripts/services/Metric.js"></script>
-    <script src="/scripts/services/Authentication.js"></script>
     <script src="/scripts/controllers/LandingCtrl.js"></script>
     <script src="/scripts/controllers/CollectionCtrl.js"></script>
     <script src="/scripts/controllers/AlbumCtrl.js"></script>
     <script src="/scripts/controllers/PlayerBarCtrl.js"></script>
-    <script src="/scripts/controllers/AuthCtrl.js"></script>
-    <script src="/scripts/controllers/UserCtrl.js"></script>
     <script src="/scripts/controllers/MetricCtrl.js"></script>
     <script src="/scripts/directives/seekBar.js"></script>
     <script src="/scripts/filters/timecode.js"></script>

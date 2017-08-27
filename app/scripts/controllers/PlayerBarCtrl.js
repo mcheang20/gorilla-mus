@@ -5,6 +5,6 @@
      }
 
      angular
-         .module('gorillaMusic')
+         .module('gorillaMus')
          .controller('PlayerBarCtrl', ['Fixtures', 'SongPlayer', PlayerBarCtrl]);
  })();

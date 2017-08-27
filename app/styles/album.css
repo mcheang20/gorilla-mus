@@ -1,0 +1,97 @@
+.album-cover-art {
+     position: relative;
+     left: 20%;
+     margin-top: 1rem;
+     width: 45%;
+ }
+
+ .album-view-details {
+     position: relative;
+     top: 1.5rem;
+     padding: 1rem;
+     color: #2F2D2D;
+ }
+
+ .album-view-details .album-view-title {
+     font-weight: 300;
+     font-size: 3.5rem;
+     font-weight: 400;
+ }
+
+ .album-view-details .album-view-artist {
+     font-weight: 300;
+     font-size: 2.5rem;
+ }
+
+ .album-view-details .album-view-release-info {
+     font-weight: 300;
+     font-size: 2rem;
+ }
+
+  .album-view-song-list {
+     width: 90%;
+     margin: 1.5rem auto;
+     font-weight: 300;
+     font-size: 2rem;
+     border-collapse: collapse;
+ }
+
+ .album-view-song-item {
+     height: 5.2rem;
+     border-bottom: 1px solid rgba(1,1,1,.1);
+ }
+
+ .song-item-number {
+     width: 5%;
+     min-width: 30px;
+     color: #2F2D2D;
+ }
+
+ .song-item-title {
+     width: 85%;
+     color: #2F2D2D;
+ }
+
+ .song-item-duration {
+     width: 5%;
+     color: #2F2D2D;
+ }
+
+.album-song-button {
+     text-align: center;
+     font-size: 1.2rem;
+     background-color: white;
+     color: rgb(247, 132, 0);
+     border-radius: 50% 50%;
+     display: inline-block;
+     width: 28px;
+ }
+
+ .album-song-button:hover {
+     cursor: pointer;
+     color: white;
+     background-color: rgb(247, 132, 0);
+ }
+
+ .album-song-button span {
+     line-height: 28px;
+ }
+
+ @media (max-width: 640px) and (min-width: 320px) {
+     .album-view-details {
+         text-align: center;
+     }
+
+     .album-view-title {
+         margin-top: 0;
+     }
+ }
+
+ @media (max-width: 1024px) and (min-width: 320px) {
+    .album-view-song-list {
+         position: relative;
+         top: 1rem;
+         width: 80%;
+         margin: auto;
+     }
+ }

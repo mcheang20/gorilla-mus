@@ -3,7 +3,7 @@
         console.log($rootScope.songPlays);
        this.Metric = Metric;
        this.Fixtures = Fixtures.getAlbum;
-       this.name = "Bloc Jams Metrics";
+       this.name = "Gorilla Music Metrics";
        this.dataArray =  this.Metric.albumSongData;
 
        this.options = {
@@ -67,6 +67,6 @@
 
 
      angular
-         .module('gorillaMusic')
+         .module('gorillaMus')
          .controller('MetricCtrl', ['$rootScope', 'Metric', 'Fixtures', MetricCtrl]);
  })();

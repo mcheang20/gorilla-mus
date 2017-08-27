@@ -10,6 +10,6 @@
      }
 
      angular
-         .module('gorillaMusic')
+         .module('gorillaMus')
          .controller('LandingCtrl', LandingCtrl);
  })();

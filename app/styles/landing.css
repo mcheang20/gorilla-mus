@@ -1,0 +1,114 @@
+body.landing {
+    background-color: rgb(58,23,63);
+}
+
+.hero-content {
+    position: relative;
+    min-height: 70rem;
+    background-image: url(../assets/images/home_img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.hero-content .hero-title {
+    position: absolute;
+    color: white;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    font-size: 9rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    text-shadow: 1px 1px 0px rgb(58,23,63);
+}
+
+.selling-points {
+    position: relative;
+    background-color: #f7f9fa;
+    padding-bottom: 5rem;
+    padding-top: 4rem;
+}
+
+.point {
+    position: relative;
+    color: #2F2D2D;
+    padding: 2rem;
+    text-align: center;
+    opacity: 1;
+    -webkit-transform: scaleX(0.9) translateY(3rem);
+    -moz-transform: scaleX(0.9) translateY(3rem);
+    transform: scaleX(0.9) translateY(3rem);
+}
+
+.point .point-title {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.point p {
+  font-size: 2rem;
+}
+
+.point .glyphicon {
+ font-size: 7rem;
+ color: #F78400;
+}
+
+.button-top {
+ position: absolute;
+ left: 0;
+ right: 0;
+ margin: 0 auto;
+ width: 15%;
+ margin-top: -200px;
+}
+
+.button-top button {
+ border: none;
+ background-color: transparent;
+ color: white;
+ font-size: 3rem;
+ padding-left: 20px;
+ padding-right: 20px;
+ height: 100%;
+ border-radius: 6px;
+ cursor: pointer;
+ transition: .5s;
+ margin-top: -20px;
+ text-shadow: 0 0 5px rgba(1,1,1,.8);
+}
+
+.button-top button:hover {
+ transform: scale(1.2);
+}
+
+.info {
+ background-image: url(../assets/images/equalizer.png);
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-size: cover;
+ min-height: 67rem;
+ margin-top: 50px;
+}
+
+.info h1 {
+ position: absolute;
+ margin-top: 47rem;
+ -webkit-transform: translateY(-50%);
+ -moz-transform: translateY(-50%);
+ transform: translateY(-50%);
+ width: 100%;
+ text-align: center;
+ font-size: 2.5rem;
+ color: white;
+ font-weight: 300;
+ text-transform: uppercase;
+ letter-spacing: 0.4rem;
+ text-shadow: 1px 1px 0px rgb(58,23,63);
+}

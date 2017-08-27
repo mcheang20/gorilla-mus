@@ -34,6 +34,6 @@
     }
 
     angular
-         .module('gorillaMusic', ['ui.router'])
+         .module('gorillaMus', ['ui.router', 'nvd3'])
          .config(config);
  })();

@@ -6,6 +6,6 @@
 
 
      angular
-         .module('gorillaMusic')
+         .module('gorillaMus')
          .controller('CollectionCtrl', ['Fixtures', 'Metric', '$rootScope', CollectionCtrl]);
  })();
